@@ -29,6 +29,22 @@ ul{
 
 .navbar{
   border: 1px solid goldenrod;
+  display: flex;
+  justify-content:space-around;
+}
+
+.logo{
+  border: 1px solid grey;
+  height: 100px;
+  width: 100px;
+  background: url(image.jpg) center;
+}
+
+.option{
+  min-width: 30%;
+  display:flex; 
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container{
@@ -52,12 +68,6 @@ ul{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-.logo{
-  border: 1px solid grey;
-  height: 100px;
-  width: 100px;
-  background: url(image.jpg) center;
 }
 
 .footer{
