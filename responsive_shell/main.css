@@ -40,6 +40,10 @@ ul{
   background: url(image.jpg) center;
 }
 
+.menu{
+  display:none;
+}
+
 .option{
   text-transform: uppercase;
   font-size: 12px;
@@ -73,9 +77,20 @@ ul{
 }
 
 .footer{
+  bottom:0;
   border:1px solid gold;
+  background-color: darkblue;
+  color: white;
 }
 
+/* media queries for mobile size*/
 @media (max-width: 500px){
 
+  .option{
+    display:none;
+  }
+  .menu{
+    display:flex;
+    align-items: center;
+  }
 }
