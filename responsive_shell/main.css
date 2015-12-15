@@ -17,27 +17,20 @@ ul{
   padding:0px;  
 }
 
-@-ms-viewport{
-  width: device-width;
-}
-
 .content{
-  border: 1px solid black;
   min-height:100vh;
   position:relative;
 }
 
 .navbar{
-  border: 1px solid goldenrod;
   display: flex;
   justify-content:space-around;
 }
 
-.logo{
-  border: 1px solid grey;
+.logo img{
+  border: 1px solid goldenrod;
   height: 100px;
   width: 100px;
-  background: url(image.jpg) center;
 }
 
 .menu{
@@ -53,15 +46,16 @@ ul{
   align-items: center;
 }
 
+.option p{
+  padding-right: 10px;
+}
+
 .container{
-  border: 1px solid green;
-  padding:10px;
   max-width: 100%;
   max-height: 100%;
 }
 
 .image{
-  border: 1px solid brown;
   height: 200px;
   background: url(image.jpg) no-repeat center center ; 
   -webkit-background-size: cover;
@@ -74,17 +68,49 @@ ul{
   display: flex;
   flex-direction:column;
   align-items: center;
+  margin-bottom: 20px;
 }
 
+.text h1 {text-transform: uppercase;}
+
+.text span{text-transform: uppercase;}
+.gridbox {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between; 
+}
+
+.gridbox figure { 
+  position: relative;
+  margin:0;
+  flex: 33%;
+}
+
+.gridbox figure img {
+  width: 100%;
+  height: auto;
+}
+
+.subfooter{ height: 50px;}
+
 .footer{
-  border:1px solid gold;
   position:absolute;
   width: 100%;
   bottom:0;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height: 50px;
+  color:white;
+  background-color: black;
+}
+
+.footer span{
+  color: goldenrod;
 }
 
 /* media queries for mobile size*/
-@media (max-width: 500px){
+@media (max-width: 650px){
 
   .option{
     display:none;
@@ -92,5 +118,14 @@ ul{
   .menu{
     display:flex;
     align-items: center;
+  }
+  .gridbox figure { 
+    flex: 40%;
+  }
+}
+
+@media (max-width:550px){
+  .gridbox figure { 
+    flex: 60%;
   }
 }
