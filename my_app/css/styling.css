@@ -1,11 +1,39 @@
+/* ------------------- */
+/*    basic styling    */
+/* ------------------- */
+
+html, body, a{
+  color:white;
+}
+
+/* app wrapper*/
+.app-wrap{
+  max-width:100%;
+  max-height: 100vh;
+}
+/* app-wrapper end */
 /* header */
 
-.app-header{ border:1px solid green;}
+.app-header{
+  max-width: 100%;
+  background-color: gold;
+}
 
-/* content */
+.app-header h1{
+  font-size:180%;
+  color:goldenrod;
+}
 
-.content{ border:1px solid goldenrod;}
-
+/* header end */
 /* footer */
 
-.footer{ border:1px solid blue;}
+.app-footer{
+  background-color: gold;
+  color:goldenrod;
+}
+
+.content{
+  color:black;
+}
+
+/* footer end */

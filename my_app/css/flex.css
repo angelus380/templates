@@ -1,0 +1,46 @@
+
+/* ------------------- */
+/*       flexbox       */
+/* ------------------- */
+
+/* flex overall*/
+
+.app-wrap { 
+  display:flex;
+  flex-direction: column;
+}
+
+.app-wrap > * {
+  flex:1 1 auto;
+}
+
+/* flex overall end */
+/* flex header */
+
+.app-header{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+/* flex header end */
+/* flex content */
+
+.content{
+  overflow:scroll;
+  -webkit-overflow-scrolling:touch;
+}
+
+/*flex content end
+/* flex footer */
+
+.app-footer{
+  display:flex;
+
+}
+
+.app-footer a{
+  flex:1;
+}
+
+/* flex footer end */
