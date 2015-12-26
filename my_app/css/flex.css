@@ -5,7 +5,7 @@
 
 /* flex overall*/
 
-.app-wrap { 
+.app-wrap {
   display:flex;
   flex-direction: column;
 }

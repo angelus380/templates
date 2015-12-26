@@ -2,16 +2,21 @@
 /*    basic styling    */
 /* ------------------- */
 
+/* page css */)
+
 html, body, a{
   color:white;
 }
 
+/* page css end */
 /* app wrapper*/
+
 .app-wrap{
   max-width:100%;
   max-height: 100vh;
 }
-/* app-wrapper end */
+
+/* app wrapper end */
 /* header */
 
 .app-header{
@@ -34,6 +39,11 @@ html, body, a{
 
 .content{
   color:black;
+  padding:0px 20px 0px 20px;
+}
+
+.content img{
+  width:50%;
 }
 
 /* footer end */
