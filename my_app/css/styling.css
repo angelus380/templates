@@ -22,12 +22,18 @@ html, body, a{
 
 .app-header{
   max-width: 100%;
+  min-height: 50px;
   background-color: gold;
   padding:0px 20px 0px 20px;
 }
 
+.app-header a{
+  color:goldenrod;
+}
+
 .app-header h1{
-  font-size:180%;
+  margin:0;
+  font-size:150%;
   color:goldenrod;
 }
 
@@ -36,7 +42,7 @@ html, body, a{
 
 .content{
   color:black;
-  padding:0px 20px 0px 20px;
+  padding:10px 20px 10px 20px;
 }
 
 .content img{
@@ -47,17 +53,19 @@ html, body, a{
 /* footer */
 
 .app-footer{
+  max-width: 100%;
+  min-height: 50px;
   background-color: gold;
-  color:goldenrod;
+  
 }
 
 .app-footer a{
   text-align: center;
-  padding: 10px 0px 0px 0px;
+  color:goldenrod;
 }
 
 .app-footer p{
-  font-size: 90%;
+  font-size: 80%;
 }
 
 /* footer end */
