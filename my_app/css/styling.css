@@ -14,6 +14,7 @@ html, body, a{
 .app-wrap{
   max-width:100%;
   max-height: 100vh;
+  text-align: justify;
 }
 
 /* app wrapper end */
@@ -22,6 +23,7 @@ html, body, a{
 .app-header{
   max-width: 100%;
   background-color: gold;
+  padding:0px 20px 0px 20px;
 }
 
 .app-header h1{
@@ -30,12 +32,7 @@ html, body, a{
 }
 
 /* header end */
-/* footer */
-
-.app-footer{
-  background-color: gold;
-  color:goldenrod;
-}
+/* content */
 
 .content{
   color:black;
@@ -44,6 +41,23 @@ html, body, a{
 
 .content img{
   width:50%;
+}
+
+/* content end */
+/* footer */
+
+.app-footer{
+  background-color: gold;
+  color:goldenrod;
+}
+
+.app-footer a{
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+
+.app-footer p{
+  font-size: 90%;
 }
 
 /* footer end */
