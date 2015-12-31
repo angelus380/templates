@@ -28,7 +28,10 @@ html, body, a{
 }
 
 .app-header a{
-  color:goldenrod;
+  padding:10px 10px 10px 10px;
+  background-color:goldenrod;
+  border-radius:5px;
+  color:gold;
 }
 
 .app-header h1{

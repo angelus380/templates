@@ -1,0 +1,30 @@
+var main = function(){
+
+    var disabled = $('.btn').addClass('disabled');
+
+    $('.btn').click(function(){
+        var post = $('.status-box').val();
+        $('<li>').text(post).prependTo('.posts');
+        $('.status-box').val('');
+        $('.counter').text('140');
+        disabled;
+    });
+    
+     $('.status-box').keyup(function(){
+        var postLength = $(this).val().length;
+        var charactersLeft = 140 - postLength;
+        $('.counter').text(charactersLeft);
+        
+        if (charactersLeft < 0){
+            disabled;
+        } else if (charactersLeft > 140){
+            disabled;
+        } else {
+            $('.btn').removeClass('disabled');
+        }
+    });
+    disabled;
+    
+}
+
+$(document).ready(main);
